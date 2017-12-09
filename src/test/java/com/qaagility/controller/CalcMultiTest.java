@@ -3,7 +3,7 @@ package com.qaagility.controller;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class CalcMulti{
+public class CalcMultiTest {
   
   public void testSlow(){
     System.out.println("Slow");
