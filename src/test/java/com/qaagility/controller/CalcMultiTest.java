@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 public class CalcMultiTest {
   
-  @Before
+
   
   public void testSlow(){
     System.out.println("Slow");
@@ -24,9 +24,5 @@ public class CalcMultiTest {
       assertEquals("Result",9,9);
     }
   
-  @After
-  public void testCalc(){
-      assertEquals("Test Successful");
-    }
   
 }
