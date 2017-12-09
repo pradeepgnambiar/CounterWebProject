@@ -1,14 +1,13 @@
 package com.qaagility.controller;
 
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
+
 
 import static org.junit.Assert.assertEquals;
 
 public class CalcMultiTest {
   
-@Before
+
   
   public void testSlow(){
     System.out.println("Slow");
@@ -25,11 +24,6 @@ public class CalcMultiTest {
   @Test
     public void testCalc(){
       assertEquals("Result",9,9);
-    }
-  
-  @After
-  public void testCalc(){
-      assertEquals("Tested Successfully");
     }
   
   
